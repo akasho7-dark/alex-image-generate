@@ -2,6 +2,8 @@ import requests
 import streamlit as st
 import base64
 
+st.title("WELCOME TO ALEX IMAGE GENERATE")
+
 def get_img_as_base64(file):
     with open(file,"rb") as f:
         data = f.read()
